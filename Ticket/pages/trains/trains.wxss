@@ -1,0 +1,30 @@
+page{
+    background-color: white;
+}
+image{
+    width: 45px;
+    height: 5px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.large-margin-left{
+    margin-left: 15%;
+}
+.large-margin-right{
+    margin-right: 15%;
+}
+.position-bottom{
+    width: 90%;
+    left: 5%;
+    position: fixed; 
+    bottom: 0px;
+}
